@@ -1,21 +1,5 @@
 <template>
-  <!-- 上传照片 -->
-  <div class="flex flex-col items-center justify-center min-h-screen">
-    <input type="file" id="inputId" @change="handleFileChange" class="hidden" />
-    <input type="file" id="imgId" @change="handleFileChange" class="hidden" />
-    <label for="imgId" class="cursor-pointer">
-      <img v-if="photo" :src="photo" alt="Uploaded" class="w-48 h-48 object-cover rounded mt-4" />
-    </label>
-    <label v-if="!photo" for="inputId"
-      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer">
-      选择照片
-    </label>
-    <div id="photoContainer" class="mt-4"></div>
-    <!-- 显示时间 -->
-    <div class="text-center text-2xl font-bold my-4">
-      {{ currentDate }} {{ currentTime }}
-    </div>
-  </div>
+  <VisitorInfo />
   <!-- <div class="text-3xl py-3">Go Http-Server</div> -->
   <!-- <div class="w-full h-[1px] bg-gray-500"></div> -->
   <UploadModal ref="uploadRef" />
@@ -24,6 +8,7 @@
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
 import UploadModal from './UploadModal.vue';
+import VisitorInfo from './VisitorInfo.vue';
 // import service from '../service/service';
 
 // interface FileItem {
@@ -36,6 +21,7 @@ import UploadModal from './UploadModal.vue';
 export default defineComponent({
   components: {
     UploadModal,
+    VisitorInfo
   },
 
   setup() {
