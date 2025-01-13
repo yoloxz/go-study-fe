@@ -1,4 +1,5 @@
-<template>
+<template></template>
+<!-- <template>
   <transition name="fade" :appear="true">
     <div v-if="visible" class="modal-background w-screen h-screen" @click="closeBg">
       <div class="flex md:w-3/5 md:h-4/5 w-full h-full p-4 bg-gray-100 rounded-lg shadow-md" @click="contentClick">
@@ -94,4 +95,4 @@ export default defineComponent({
 .fade-leave-to {
   opacity: 0;
 }
-</style>
+</style> -->
