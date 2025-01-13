@@ -1,6 +1,5 @@
 // import  from "./service/uploadFile";
 import service from "./service";
-import SparkMD5 from 'spark-md5';
 
 
 const defaultChunkSize = 512 * 512 * 10; // 5MB
@@ -29,7 +28,7 @@ async function notifyFileChunks(file: File, chunkSize = defaultChunkSize): Promi
 
 // 获取文件分块
 function getFileChunks(file: File, chunkSize = defaultChunkSize): Promise<void> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const fileReader = new FileReader
     const chunks = Math.ceil(file.size / chunkSize)
     const md5 = new SparkMD5.ArrayBuffer()
