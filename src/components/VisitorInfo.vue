@@ -75,19 +75,19 @@
                 </div>
                 <div class="grid grid-cols-2 gap-4 text-white">
                   <div
-                    class="relative bg-green-600 bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-green.jpg')]  px-4 py-9 rounded">
+                    class="relative bg-green-600 bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-green.jpg')]  px-4 py-10 rounded">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">主楼</p>
                   </div>
                   <div
-                    class="relative bg-gray-300 px-4 py-9 rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
+                    class="relative bg-gray-300 px-4 py-10 rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">服务楼</p>
                   </div>
                   <div
-                    class="relative bg-gray-300 px-4 py-9 rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
+                    class="relative bg-gray-300 px-4 py-10 rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">数据楼</p>
                   </div>
                   <div
-                    class="relative bg-gray-300 px-4 py-9   rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
+                    class="relative bg-gray-300 px-4 py-10   rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">机房楼</p>
                   </div>
                 </div>
