@@ -1,7 +1,8 @@
 <template>
   <div class="bg-gray-100 h-screen flex flex-col text-sm">
-    <div class="bg-blue-500 text-white px-4 py-2">
-      <div class="flex pb-3">
+    <div
+      class=" text-white px-4 py-2 bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/banner.jpg')]">
+      <div class=" flex pb-3">
         <div class="flex-grow"></div>
         <p class="text-xs">退出</p>
       </div>
@@ -27,7 +28,7 @@
     <div class="flex flex-col items-center justify-center flex-grow">
       <div class="max-w-md w-full h-full mx-auto z-10 bg-gray-300">
         <div class="flex flex-col h-full">
-          <div class="bg-white relative h-full rounded-3xl p-4 m-4">
+          <div class="bg-white relative h-full rounded-xl p-4 m-4">
             <div class="flex-none sm:flex">
               <div class=" relative h-32 w-32   sm:mb-0 mb-3 hidden">
                 <img src="https://tailwindcomponents.com/storage/avatars/njkIbPhyZCftc4g9XbMWwVsa7aGVPajYLRXhEeoo.jpg"
@@ -65,7 +66,7 @@
                 <div class="text-center pt-4 font-bold">
                   <p>{{ currentDate }} {{ currentTime }}</p>
                 </div>
-                <div class="border-b border-dashed border-b-2 my-5">
+                <div class="border-b border-dotted border-b-2 my-5">
                   <div class="absolute rounded-full w-5 h-5 bg-gray-300 -mt-2 -left-2"></div>
                   <div class="absolute rounded-full w-5 h-5 bg-gray-300 -mt-2 -right-2"></div>
                 </div>
@@ -73,22 +74,26 @@
                   <p>出入园区范围</p>
                 </div>
                 <div class="grid grid-cols-2 gap-4 text-white">
-                  <div class="relative bg-green-600  px-4 py-9 rounded">
+                  <div
+                    class="relative bg-green-600 bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-green.jpg')]  px-4 py-9 rounded">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">主楼</p>
                   </div>
-                  <div class="relative bg-gray-300 px-4 py-9 rounded">
+                  <div
+                    class="relative bg-gray-300 px-4 py-9 rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">服务楼</p>
                   </div>
-                  <div class="relative bg-gray-300 px-4 py-9 rounded">
+                  <div
+                    class="relative bg-gray-300 px-4 py-9 rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">数据楼</p>
                   </div>
-                  <div class="relative bg-gray-300 px-4 py-9   rounded">
+                  <div
+                    class="relative bg-gray-300 px-4 py-9   rounded bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/button-gray.jpg')]">
                     <p class="absolute top-0 left-0 text-[0.6rem] p-2">机房楼</p>
                   </div>
                 </div>
-                <div class="mt-4 text-sm">
-                  <p class="py-2">报备信息审核人员</p>
-                  <p class="mt-4 text-xs">工程建设部/云网建设项目组</p>
+                <div class="mt-6 text-sm">
+                  <p>报备信息审核人员</p>
+                  <p class="mt-3 text-xs">工程建设部/云网建设项目组</p>
                   <p class="text-xs">郭瑞 13609190852</p>
                 </div>
               </div>
