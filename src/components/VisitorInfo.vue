@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 h-screen flex flex-col text-sm">
+  <div class="bg-gray-100 h-screen min-h-screen flex flex-col text-sm">
     <div
       class=" text-white px-4 py-2 bg-cover bg-[url('https://pub-53b47aa3e9104bfe8d99833d295b0ad5.r2.dev/banner.jpg')]">
       <div class=" flex pb-3">
